@@ -3,16 +3,22 @@ import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import SingleCard from './components/SingleCard';
+import breach from './img/breach.png'
+import jett from './img/jett.png'
+import pheonix from './img/pheonix.png' 
+import reyna from './img/reyna.png'
+import skye from './img/skye.png'
+import viper from './img/viper.png'
 
 
 
 const cardsImages = [
-  { "src": "/img/breach.png" , matched: false},
-  { "src": "/img/jett.png", matched: false },
-  { "src": "/img/pheonix.png", matched: false },
-  { "src": "/img/reyna.png" , matched: false},
-  { "src": "/img/skye.png" , matched: false},
-  { "src": "/img/viper.png" , matched: false}
+  { "src": breach, matched: false},
+  { "src": jett, matched: false },
+  { "src": pheonix, matched: false },
+  { "src": reyna , matched: false},
+  { "src": skye , matched: false},
+  { "src": viper , matched: false}
 ]
 
 
@@ -96,7 +102,7 @@ function App() {
           ))}
         </div> 
 
-    
+      
     </div>
   );
 }

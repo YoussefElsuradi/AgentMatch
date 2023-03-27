@@ -1,5 +1,5 @@
 import './SingleCard.css'
-
+import cover2 from '../img/cover2.png'
 
 
 
@@ -18,7 +18,7 @@ export default function SingleCard({card, handleChoice, flipped, disabled}){
               <div className={flipped ? "flipped" : ""}>
                 <img className='front' src={card.src} alt="card front"/>  
                 <img className='back' 
-                src="img/cover2.png"
+                src={cover2}
                 onClick={handleClick} 
                 alt='card back'/> 
               </div>
