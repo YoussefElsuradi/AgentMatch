@@ -31,6 +31,8 @@ function App() {
       .sort(() => Math.random() - 0.5)
       .map((card) => ({...card, id: Math.random()}))
 
+      setChoiceOne(null)
+      setChoiceTwo(null)
       setCards(shuffledCards)
       setGuesses(0)
   }
@@ -67,11 +69,17 @@ function App() {
     setGuesses(prevGuesses => prevGuesses + 1 )
   }
 
+  useEffect(() => {
+    shuffleCards()
+  },[])
 
   return (
     <div className="App">
         <h1> Agent Match </h1>
         <button onClick={shuffleCards}>New Match</button>
+        <p>Guesses: {guesses}</p>
+        
+
         <div className='grid'>
           {cards.map(card => (
             <SingleCard 
