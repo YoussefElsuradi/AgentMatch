@@ -1,14 +1,21 @@
 {
   "files": {
     "main.css": "/AgentMatch/static/css/main.5f0b5e32.css",
-    "main.js": "/AgentMatch/static/js/main.546cc099.js",
+    "main.js": "/AgentMatch/static/js/main.6980c6c8.js",
     "static/media/bg.png": "/AgentMatch/static/media/bg.ab1915002589785bf0b4.png",
+    "static/media/cover2.png": "/AgentMatch/static/media/cover2.4ae36418822c65cc5dc3.png",
+    "static/media/skye.png": "/AgentMatch/static/media/skye.18c80ba0c7dd785cd937.png",
+    "static/media/breach.png": "/AgentMatch/static/media/breach.e61dde51bbf4edbd1dc6.png",
+    "static/media/viper.png": "/AgentMatch/static/media/viper.6b89be5ebd67bed4b94b.png",
+    "static/media/reyna.png": "/AgentMatch/static/media/reyna.4f7810f7f3022a799a59.png",
+    "static/media/pheonix.png": "/AgentMatch/static/media/pheonix.89a405a83ab68fe610cb.png",
+    "static/media/jett.png": "/AgentMatch/static/media/jett.c5e66e5c5032cdcec83d.png",
     "index.html": "/AgentMatch/index.html",
     "main.5f0b5e32.css.map": "/AgentMatch/static/css/main.5f0b5e32.css.map",
-    "main.546cc099.js.map": "/AgentMatch/static/js/main.546cc099.js.map"
+    "main.6980c6c8.js.map": "/AgentMatch/static/js/main.6980c6c8.js.map"
   },
   "entrypoints": [
     "static/css/main.5f0b5e32.css",
-    "static/js/main.546cc099.js"
+    "static/js/main.6980c6c8.js"
   ]
 }
