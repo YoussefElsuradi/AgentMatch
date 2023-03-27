@@ -25,3 +25,8 @@ p {
 h1 {
   color: #fff;
 }
+
+.hidden {
+  transform: rotateY(90deg);
+  position: absolute;
+}
