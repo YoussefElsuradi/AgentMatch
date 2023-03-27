@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AgentMatch/static/css/main.5f0b5e32.css",
+    "main.js": "/AgentMatch/static/js/main.546cc099.js",
+    "static/media/bg.png": "/AgentMatch/static/media/bg.ab1915002589785bf0b4.png",
+    "index.html": "/AgentMatch/index.html",
+    "main.5f0b5e32.css.map": "/AgentMatch/static/css/main.5f0b5e32.css.map",
+    "main.546cc099.js.map": "/AgentMatch/static/js/main.546cc099.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f0b5e32.css",
+    "static/js/main.546cc099.js"
+  ]
+}
