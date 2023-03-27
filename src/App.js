@@ -96,16 +96,7 @@ function App() {
           ))}
         </div> 
 
-        <div>
-          <img className='hidden' src="img/breach.png"/> 
-          <img className='hidden' src="img/jett.png"/> 
-          <img className='hidden' src="img/pheonix.png"/> 
-          <img className='hidden' src="img/reyna.png"/> 
-          <img className='hidden' src="img/skye.png"/> 
-          <img className='hidden' src="img/viper.png"/> 
-
-
-        </div>
+    
     </div>
   );
 }
