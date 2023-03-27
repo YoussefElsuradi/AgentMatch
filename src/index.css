@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background-color: #fa4454;
+  /* background-color: #fa4454; */
+  background-image: url('bg.png');
+  background-size: contain;
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
